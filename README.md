@@ -2,8 +2,13 @@ Minetest
 ========
 
 
-NB: This if not Minetest official repository !
+**NB: This if not Minetest official repository !**
 
+Th cmake command line used was:
+
+```bash
+cmake . -DRUN_IN_PLACE=TRUE -DBUILD_SERVER=TRUE -DBUILD_CLIENT=FALSE -DENABLE_CURL=ON -DENABLE_LUAJIT=ON .
+```
 
 ![Build Status](https://github.com/minetest/minetest/workflows/build/badge.svg)
 [![Translation status](https://hosted.weblate.org/widgets/minetest/-/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/?utm_source=widget)
